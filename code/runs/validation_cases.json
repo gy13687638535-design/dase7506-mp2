@@ -1,0 +1,142 @@
+[
+  {
+    "type": "corrected",
+    "row_zero_based": 72,
+    "question": "A lot of people have been sick at Gary's workplace, so he's been working a lot of extra shifts to fill in for people. As a result, he's earned some overtime (where every hour after 40 he earns 1.5 times his normal wage.) His paycheck (before taxes are taken out) came out to $696. If Gary normally earns $12 per hour, how many hours did he work that week?",
+    "answers": [
+      "52",
+      "236/5",
+      "184",
+      "4"
+    ],
+    "correct_indices": [
+      0
+    ],
+    "old_choice": 2,
+    "new_choice": 0,
+    "margin": 0.33842191596260984,
+    "candidates": [
+      "We are given:\n\n- Gary earns **$12 per hour** normally.\n- He works **overtime** (hours after 40) and earns **1.5 times his normal wage**.\n- His **total pay** (before taxes) is **$696**.\n- We need to find how many hours he worked.\n\n---\n\n### Step 1: Let $ h $ be the total number of hours he worked.\n\n- He worked **$ h $** hours, of which **40 hours** were regular, and the remaining **$ h - 40 $** were overtime.\n\n### Step 2: Overtime pay\n\n- Overtime hours: $ h - 40 $\n- Overtime pay: $ 1.5 \\times 12 \\times (h - 40) = 18(h - 40) $\n\n### Step 3: Total pay\n\n- Regular pay: $ 12 \\times 40 = 480 $\n- Overtime pay: $ 18(h - 40) $\n- Total pay: $ 480 + 18(h - 40) = 696 $\n\n---\n\n### Step 4: Solve the equation\n\n$$\n480 + 18(h - 40) = 696\n$$\n\n$$\n18(h - 40) = 696 - 480 = 216\n$$\n\n$$\nh - 40 = \\frac{216}{18} = 12\n$$\n\n$$\nh = 40 + 12 = 52\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{52}\n$$",
+      "We are told:\n\n- Gary earns **$12 per hour** normally.\n- He works **extra hours** (overtime) where every hour after 40 hours he earns **1.5 times his normal wage**.\n- His total **paycheck** (before taxes) is **$696**.\n- We are to find the **total number of hours** he worked that week.\n\n---\n\n### Step 1: Let $ h $ be the total number of hours Gary worked.\n\nHe worked **h hours**. Since he works **extra shifts**, the number of **overtime hours** is:\n\n$$\nh - 40\n$$\n\nEach overtime hour earns him **1.5 times his normal wage**. So, the **overtime pay** is:\n\n$$\n1.5 \\times 12 \\times (h - 40) = 18(h - 40)\n$$\n\n---\n\n### Step 2: The total pay is the sum of his normal pay and overtime pay:\n\n$$\n\\text{Total pay} = 12h + 18(h - 40)\n$$\n\n$$\n= 12h + 18h - 720 = 30h - 720\n$$\n\n---\n\n### Step 3: Set this equal to $696$ and solve for $ h $:\n\n$$\n30h - 720 = 696\n$$\n\n$$\n30h = 696 + 720 = 1416\n$$\n\n$$\nh = \\frac{1416}{30} = 47.2\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{47.2}\n$$",
+      "We are told:\n\n- Gary earns **$12 per hour** normally.\n- He works **extra hours** beyond 40, where **every hour after 40 earns 1.5 times his normal wage**.\n- His **total paycheck** (before taxes) is **$696**.\n- We are to find how many hours he worked.\n\n---\n\n### Step 1: Let $ h $ be the total number of hours he worked.\n\nHe worked $ h $ hours, so he worked **40 hours** at the normal rate and **$ h - 40 $** hours at the overtime rate.\n\nHis total earnings can be written as:\n\n$$\n12 \\times 40 + 1.5 \\times (h - 40)\n$$\n\nWe are told this total is $696.\n\n---\n\n### Step 2: Set up the equation:\n\n$$\n12 \\times 40 + 1.5 \\times (h - 40) = 696\n$$\n\n$$\n480 + 1.5(h - 40) = 696\n$$\n\n$$\n1.5h - 60 = 696 - 480\n$$\n\n$$\n1.5h - 60 = 216\n$$\n\n$$\n1.5h = 276\n$$\n\n$$\nh = \\frac{276}{1.5} = 184\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{184}\n$$",
+      "We are told:\n\n- Gary earns **$12 per hour** normally.\n- Every hour after 40, he earns **1.5 times his normal wage**.\n- His **total paycheck** (before taxes) is **$696**.\n- We need to find how many **hours** he worked that week.\n\n---\n\n### Step 1: Let $ x $ be the number of **regular hours** he worked.\n\nThen, the number of **overtime hours** is $ 40 - x $.\n\n---\n\n### Step 2: Calculate his total earnings.\n\n- Regular earnings: $ 12 \\times x $\n- Overtime earnings: $ 1.5 \\times 12 \\times (40 - x) = 18(40 - x) $\n\nSo, his total earnings are:\n\n$$\n12x + 18(40 - x) = 696\n$$\n\n---\n\n### Step 3: Solve the equation.\n\n$$\n12x + 18(40 - x) = 696\n$$\n\n$$\n12x + 720 - 18x = 696\n$$\n\n$$\n-6x + 720 = 696\n$$\n\n$$\n-6x = -24\n$$\n\n$$\nx = 4\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{4}\n$$"
+    ]
+  },
+  {
+    "type": "corrected",
+    "row_zero_based": 115,
+    "question": "My cat's empty bowl weighs 420 grams. If I give my cat 60 grams per day and I always fill her bowl every 3 days, how much does her bowl weigh if after I ended up refilling her empty bowl she only ate 14 grams?",
+    "answers": [
+      "434",
+      "406",
+      "406",
+      "586"
+    ],
+    "correct_indices": [
+      3
+    ],
+    "old_choice": 1,
+    "new_choice": 3,
+    "margin": 0.11995074818916157,
+    "candidates": [
+      "We are given:\n\n- The **empty bowl weight** is **420 grams**.\n- The **cat eats 60 grams per day**.\n- The **bowl is refilled every 3 days**.\n- After refilling, the **cat only ate 14 grams**, and the **empty bowl weighs the same**.\n\n---\n\n### Step 1: Find how much the bowl was filled\n\nThe cat was **refilled every 3 days**, and **after refilling**, she only ate **14 grams**.\n\nSo, the **total weight of the bowl** after refilling is:\n\n$$\n420 \\text{ grams} + 14 \\text{ grams} = 434 \\text{ grams}\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{434}\n$$",
+      "We are told:\n\n- The empty bowl weighs **420 grams**.\n- The cat eats **60 grams per day**.\n- The cat is filled every **3 days**.\n- After refilling, the bowl only weighs **14 grams**.\n\n---\n\n### Step 1: Find the amount of food eaten in 3 days\n\nSince the cat is filled every 3 days, and she eats 60 grams per day, in 3 days she eats:\n\n$$\n60 \\, \\text{g/day} \\times 3 \\, \\text{days} = 180 \\, \\text{grams}\n$$\n\n---\n\n### Step 2: Find the total weight of the bowl after refilling\n\nWe know the bowl was initially empty (420 grams), and after refilling, it only has 14 grams. This means the cat ate:\n\n$$\n420 \\, \\text{g} - 14 \\, \\text{g} = 406 \\, \\text{g}\n$$\n\nThis is the total weight of food the cat ate over the 3 days.\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{406}\n$$",
+      "We are told:\n\n- The **empty bowl weight** is **420 grams**.\n- The **cat eats 60 grams per day**.\n- The **cat is filled every 3 days**.\n- After refilling, **only 14 grams** of the bowl was eaten.\n\n---\n\n### Step 1: Find the **total weight of the bowl** after refilling\n\n- The cat was **empty** and then **filled**.\n- She **only ate 14 grams**, so the **remaining weight** is:\n\n$$\n420 \\, \\text{g} - 14 \\, \\text{g} = 406 \\, \\text{g}\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{406}\n$$",
+      "We are given:\n\n- The **empty bowl weight** is **420 grams**.\n- The **daily weight given** to the cat is **60 grams**.\n- The **refilling interval** is **3 days**.\n- After refilling, the **cat only ate 14 grams**.\n\n### Step-by-step:\n\n1. **Calculate the total weight the cat would have consumed in 3 days:**\n   $$\n   60 \\text{ grams/day} \\times 3 = 180 \\text{ grams}\n   $$\n\n2. **Determine the total weight the bowl would have carried over:**\n   $$\n   420 \\text{ grams} + 180 \\text{ grams} = 600 \\text{ grams}\n   $$\n\n3. **Add the weight the cat ate (14 grams):**\n   $$\n   600 \\text{ grams} - 14 \\text{ grams} = 586 \\text{ grams}\n   $$\n\n### Final Answer:\n$$\n\\boxed{586}\n$$"
+    ]
+  },
+  {
+    "type": "regressed",
+    "row_zero_based": 9,
+    "question": "John takes 3 naps a week.  Each nap is 2 hours long.  In 70 days how many hours of naps does he take?",
+    "answers": [
+      "60",
+      "420",
+      "420",
+      "60"
+    ],
+    "correct_indices": [
+      0,
+      3
+    ],
+    "old_choice": 0,
+    "new_choice": 1,
+    "margin": 0.07090437353114232,
+    "candidates": [
+      "John takes **3 naps a week** and each nap is **2 hours long**.\n\n### Step 1: Calculate the total hours of naps per week  \n$$\n3 \\text{ naps/week} \\times 2 \\text{ hours/nap} = 6 \\text{ hours/week}\n$$\n\n### Step 2: Calculate the total hours of naps in 70 days  \nSince there are **7 days in a week**, we divide the weekly naps by 7:\n\n$$\n\\frac{6 \\text{ hours/week}}{7 \\text{ days/week}} \\times 70 \\text{ days} = 60 \\text{ hours}\n$$\n\n### Final Answer:\n$$\n\\boxed{60}\n$$",
+      "John takes 3 naps a week, and each nap is 2 hours long. In 70 days, how many hours of naps does he take?\n\n1. **Number of naps per week**: 3  \n2. **Hours per nap**: 2  \n3. **Total hours per week**: $ 3 \\times 2 = 6 $ hours  \n4. **Total days**: 70  \n5. **Total hours in 70 days**: $ 6 \\times 70 = 420 $ hours\n\n### Final Answer:\n#### <numeric answer> 420",
+      "John takes **3 naps a week** and each nap is **2 hours long**.  \n\nIn **70 days**, the total number of naps is:  \n$$ 3 \\text{ naps/week} \\times 70 \\text{ days} = 210 \\text{ naps} $$\n\nEach nap is **2 hours**, so the total hours of naps is:  \n$$ 210 \\text{ naps} \\times 2 \\text{ hours/nap} = 420 \\text{ hours} $$\n\n### Final Answer:\n$$ \\boxed{420} $$",
+      "John takes **3 naps a week** and each nap is **2 hours long**. We need to find out how many hours of naps he takes in **70 days**.\n\n- 3 naps per week × 2 hours per nap = **6 hours per week**\n- In 70 days, we can calculate the total hours as:\n\n$$\n6 \\text{ hours/week} \\times \\frac{70}{7} = 6 \\times 10 = 60 \\text{ hours}\n$$\n\n### Final Answer:\n$$\n\\boxed{60}\n$$"
+    ]
+  },
+  {
+    "type": "regressed",
+    "row_zero_based": 31,
+    "question": "Grace baked 4 whole pumpkin pies. She sold 1 whole pumpkin pie and gave 1 whole pumpkin pie to her friend. The remaining whole pumpkin pies were each sliced into 6 pieces. Her family ate 2/3 pieces. How many pieces of pumpkin pie were left?",
+    "answers": [
+      "6",
+      "4",
+      "2",
+      "4"
+    ],
+    "correct_indices": [
+      1,
+      3
+    ],
+    "old_choice": 3,
+    "new_choice": 0,
+    "margin": 0.04013122785263834,
+    "candidates": [
+      "Grace baked **4 whole pumpkin pies**.  \nShe sold **1 whole pumpkin pie** and gave **1 whole pumpkin pie** to her friend.  \nSo, she had **3 whole pumpkin pies** left.  \n\nEach of those pies was sliced into **6 pieces**.  \nHer family ate **$ \\frac{2}{3} $** of the total pieces.  \n\nSo, the total number of pieces is:  \n$$ 3 \\times 6 = 18 $$\n\nShe ate $ \\frac{2}{3} $ of 18:  \n$$ \\frac{2}{3} \\times 18 = 12 $$\n\nThe number of pieces left is:  \n$$ 18 - 12 = 6 $$\n\n#### <numeric answer> 6",
+      "Grace baked 4 whole pumpkin pies.  \nShe sold **1** pie and gave **1** pie to her friend.  \nSo, she had **2** whole pies left.  \n\nEach of these 2 pies was sliced into **6 pieces**, so she had **12** pieces in total.  \n\nHer family ate **$\\frac{2}{3}$** of the pieces.  \n\nTo find how many pieces are left:  \n$$\n12 - \\frac{2}{3} \\times 12 = 12 - 8 = 4\n$$  \n\n**Answer:** 4 pieces of pumpkin pie were left.  \n\n#### <numeric answer> 4",
+      "Grace baked **4 whole pumpkin pies**.  \nShe sold **1 whole pumpkin pie** and gave **1 whole pumpkin pie** to her friend.  \nSo, she baked **3** whole pies, and **2** were sold and given away.  \n\nThe remaining **1 whole pumpkin pie** was sliced into **6 pieces**.  \n\nHer family ate **$\\frac{2}{3}$** of the remaining **6** pieces.  \n\n**Total pieces left**:  \n- 1 whole pie = 6 pieces  \n- 6 pieces × $\\frac{2}{3}$ = 4 pieces  \n- So, **6 - 4 = 2** pieces left.\n\n#### <numeric answer> 2",
+      "Grace baked **4 whole pumpkin pies**. She sold **1 whole pumpkin pie** and gave **1 whole pumpkin pie** to her friend.  \nSo, she **baked 4 pies**, sold 1, and gave 1, leaving **2 whole pies**.\n\nEach of the remaining 2 whole pies was sliced into **6 pieces**.  \nSo, the total number of **sliced pieces** is:  \n$ 2 \\times 6 = 12 $ pieces.\n\nHer family ate $ \\frac{2}{3} $ of the pieces.  \nSo, the number of pieces eaten is:  \n$ \\frac{2}{3} \\times 12 = 8 $ pieces.\n\nThe number of **remaining pieces** is:  \n$ 12 - 8 = 4 $.\n\n#### <numeric answer> 4"
+    ]
+  },
+  {
+    "type": "confident_error",
+    "row_zero_based": 586,
+    "question": "On a particular day, Rose's teacher read the register and realized there were twice as many girls as boys present on that day. The class has 250 students, and all the 140 girls were present. If all the absent students were boys, how many boys were absent that day?",
+    "answers": [
+      "180",
+      "180",
+      "180",
+      "40"
+    ],
+    "correct_indices": [
+      3
+    ],
+    "old_choice": 2,
+    "new_choice": 2,
+    "margin": 2.1970411680994264,
+    "candidates": [
+      "We are given:\n\n- Total number of students = 250  \n- Number of girls present = 140  \n- The number of girls is **twice** the number of boys present.\n\nLet the number of boys present be $ x $. Then the number of girls present is $ 2x $.\n\nWe are told there are **140 girls present**, so:\n\n$$\n2x = 140 \\Rightarrow x = 70\n$$\n\nSo, the number of boys present is **70**.\n\nSince all the **absent students** are boys, and the total number of students is 250, the number of absent boys is:\n\n$$\n250 - 70 = \\boxed{180}\n$$\n\n### Final Answer: **180**",
+      "We are given the following information:\n\n- The class has **250 students**.\n- **140 girls** were present.\n- The number of **girls is twice** the number of **boys**.\n- All **absent students** are **boys**.\n\n---\n\n### Step 1: Find the number of boys present\n\nWe are told that there are **140 girls** and the number of **girls is twice the number of boys**.\n\nLet the number of boys present be $ x $.\n\nThen:\n\n$$\n140 = 2x\n\\Rightarrow x = 70\n$$\n\nSo, **70 boys** were present.\n\n---\n\n### Step 2: Find the number of boys absent\n\nSince the total number of students is **250**, and **70** are present, the number of **absent students** is:\n\n$$\n250 - 70 = 180\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{180}\n$$",
+      "We are given the following:\n\n- Total number of students = 250  \n- Number of girls present = 140  \n- Number of girls is **twice** as many as boys present.  \n- All the **absent students** are boys.  \n- We are to find how many **boys were absent**.\n\n---\n\n### Step 1: Let the number of boys present be $ x $.\n\nSince there are **twice as many girls as boys present**, we have:\n\n$$\n\\text{Number of girls present} = 2x\n$$\n\nBut we are told the number of girls present is **140**. So:\n\n$$\n2x = 140 \\Rightarrow x = 70\n$$\n\nSo, there are **70 boys present**.\n\n---\n\n### Step 2: Total number of students is 250.\n\n$$\n\\text{Total students} = \\text{Present students} + \\text{Absent students}\n$$\n\n$$\n250 = 70 + \\text{Absent students}\n$$\n\n$$\n\\text{Absent students} = 250 - 70 = 180\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{180}\n$$",
+      "We are given:\n\n- Total students = 250  \n- Number of **present** students = 140  \n- Number of **present** girls = 140 (so number of boys = 250 - 140 = 110)  \n- Number of **present** girls is **twice** the number of **present** boys.\n\nLet the number of **present** boys be $ x $. Then the number of **present** girls is $ 2x $.\n\nSince there are 140 present girls, we have:\n$$\n2x = 140 \\Rightarrow x = 70\n$$\n\nSo, the number of **absent** boys is:\n\n$$\n250 - 140 - 70 = 40\n$$\n\n### Final Answer:\n$$\n\\boxed{40}\n$$"
+    ]
+  },
+  {
+    "type": "confident_error",
+    "row_zero_based": 175,
+    "question": "Lexie is 6 years older than her brother and her sister is twice her age. If Lexie is 8, what is the age difference between her brother and her sister?",
+    "answers": [
+      "2",
+      "2",
+      "2",
+      "14"
+    ],
+    "correct_indices": [
+      3
+    ],
+    "old_choice": 1,
+    "new_choice": 1,
+    "margin": 2.1814675050546475,
+    "candidates": [
+      "We are given:\n\n- Lexie is 8 years old.\n- Lexie is 6 years older than her brother.\n- Lexie is twice the age of her sister.\n\nLet's solve step by step:\n\n1. Lexie's age = 8  \n2. Lexie is 6 years older than her brother → Brother's age = Lexie's age - 6 = $ 8 - 6 = 2 $  \n3. Lexie is twice her sister's age → Sister's age = Lexie's age / 2 = $ 8 / 2 = 4 $\n\nNow, the **age difference between her brother and her sister** is:  \n$$ 2 - 4 = -2 $$\n\nSince age differences are typically expressed as absolute values, the final answer is:\n\n$$ \\boxed{2} $$",
+      "We are given:\n\n- Lexie is **8 years old**.\n- Lexie is **6 years older** than her **brother**.\n- Lexie is **twice her sister's age**.\n\n---\n\n### Step 1: Find the age of Lexie's brother\n\nLexie is 6 years older than her brother:\n\n$$\n\\text{Brother's age} = \\text{Lexie's age} - 6 = 8 - 6 = 2\n$$\n\n---\n\n### Step 2: Find the age of Lexie's sister\n\nLexie is **twice** her sister's age:\n\n$$\n\\text{Sister's age} = \\frac{\\text{Lexie's age}}{2} = \\frac{8}{2} = 4\n$$\n\n---\n\n### Step 3: Find the age difference between brother and sister\n\n$$\n\\text{Age difference} = \\text{Brother's age} - \\text{Sister's age} = 2 - 4 = -2\n$$\n\nSince age differences are always **positive**, the **absolute difference** is:\n\n$$\n\\boxed{2}\n$$\n\n---\n\n### ✅ Final Answer:\n\n$$\n\\boxed{2}\n$$",
+      "We are given the following:\n\n- Lexie is **6 years older** than her **brother**.\n- Lexie is **twice** her **sister's age**.\n- Lexie is **8 years old**.\n\n---\n\n### Step 1: Find Lexie's sister's age\n\nSince Lexie is **twice** her sister's age, and Lexie is **8**, then:\n\n$$\n\\text{Sister's age} = \\frac{8}{2} = 4\n$$\n\n---\n\n### Step 2: Find Lexie's brother's age\n\nLexie is **6 years older** than her brother, so:\n\n$$\n\\text{Brother's age} = \\text{Lexie's age} - 6 = 8 - 6 = 2\n$$\n\n---\n\n### Final Answer:\n\n$$\n\\boxed{2}\n$$",
+      "We are given the following information:\n\n- Lexie is **6 years older** than her **brother**.\n- Lexie is **twice her age**.\n- Lexie is **8 years old**.\n\n---\n\n### Step 1: Find Lexie's brother's age\n\nLexie is **6 years older** than her brother.  \nSo, if Lexie is 8, then her brother is:\n\n$$\n8 - 6 = 2\n$$\n\n---\n\n### Step 2: Find Lexie's sister's age\n\nLexie is **twice her age**.  \nSo, if Lexie is 8, then her sister is:\n\n$$\n2 \\times 8 = 16\n$$\n\n---\n\n### Step 3: Find the age difference between Lexie's brother and sister\n\n$$\n\\text{Age difference} = \\text{Brother's age} - \\text{Sister's age} = 2 - 16 = -14\n$$\n\nSince age differences are typically **positive**, we take the absolute value.\n\n$$\n\\boxed{14}\n$$\n\n---\n\n### ✅ Final Answer: **14**"
+    ]
+  }
+]

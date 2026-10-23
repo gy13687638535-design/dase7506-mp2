@@ -1,0 +1,57 @@
+[
+  {
+    "family": "pair_linear",
+    "C": 0.001,
+    "inner_keys": [
+      "pair_linear_C0.001"
+    ]
+  },
+  {
+    "family": "mlp_bce",
+    "decay": 0.01,
+    "epoch": 40,
+    "mean_hard": 0.796340493237868,
+    "mean_all": 0.9102698913424465,
+    "inner_keys": [
+      "mlp_bce_wd0.01_seed7506_ep40",
+      "mlp_bce_wd0.01_seed7507_ep40",
+      "mlp_bce_wd0.01_seed7508_ep40"
+    ]
+  },
+  {
+    "family": "mlp_pairwise",
+    "decay": 0.001,
+    "epoch": 10,
+    "mean_hard": 0.8050914876690533,
+    "mean_all": 0.9141254819488257,
+    "inner_keys": [
+      "mlp_pairwise_wd0.001_seed7506_ep10",
+      "mlp_pairwise_wd0.001_seed7507_ep10",
+      "mlp_pairwise_wd0.001_seed7508_ep10"
+    ]
+  },
+  {
+    "family": "mlp_listwise",
+    "decay": 0.01,
+    "epoch": 10,
+    "mean_hard": 0.7995226730310262,
+    "mean_all": 0.9116719242902208,
+    "inner_keys": [
+      "mlp_listwise_wd0.01_seed7506_ep10",
+      "mlp_listwise_wd0.01_seed7507_ep10",
+      "mlp_listwise_wd0.01_seed7508_ep10"
+    ]
+  },
+  {
+    "family": "context_listwise",
+    "decay": 0.01,
+    "epoch": 10,
+    "mean_hard": 0.7915672235481305,
+    "mean_all": 0.9081668419207851,
+    "inner_keys": [
+      "context_listwise_wd0.01_seed7506_ep10",
+      "context_listwise_wd0.01_seed7507_ep10",
+      "context_listwise_wd0.01_seed7508_ep10"
+    ]
+  }
+]

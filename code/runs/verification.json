@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "full_validation_export_matching": true,
+  "contract_test_questions": 80,
+  "checks": [
+    "empty inputs",
+    "new IDs",
+    "reordered questions",
+    "candidate permutation",
+    "batch consistency",
+    "no reference/bank/output-cache file reads",
+    "no network calls",
+    "no torch inference import",
+    "bounded arithmetic",
+    "official prediction types"
+  ],
+  "asset_bytes": 1411186,
+  "uncompressed_npz_array_bytes": 859296
+}

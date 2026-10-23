@@ -1,0 +1,807 @@
+[
+  {
+    "name": "pair_linear_fusion0",
+    "family": "pair_linear",
+    "new_weight": 0,
+    "context": false,
+    "members": [
+      "seed7506.npz"
+    ],
+    "inner": {
+      "accuracy": 0.917981072555205,
+      "hard_accuracy": 0.8138424821002387,
+      "correct": 873,
+      "hard_correct": 341,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8422535211267606
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 14234,
+    "accuracy": 0.9298245614035088,
+    "hard_accuracy": 0.8422535211267606,
+    "correct": 742,
+    "hard_correct": 299,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "pair_linear_fusion0.25",
+    "family": "pair_linear",
+    "new_weight": 0.25,
+    "context": false,
+    "members": [
+      "seed7506.npz"
+    ],
+    "inner": {
+      "accuracy": 0.9190325972660357,
+      "hard_accuracy": 0.8162291169451074,
+      "correct": 874,
+      "hard_correct": 342,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8366197183098592
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 14234,
+    "accuracy": 0.9273182957393483,
+    "hard_accuracy": 0.8366197183098592,
+    "correct": 740,
+    "hard_correct": 297,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "pair_linear_fusion0.5",
+    "family": "pair_linear",
+    "new_weight": 0.5,
+    "context": false,
+    "members": [
+      "seed7506.npz"
+    ],
+    "inner": {
+      "accuracy": 0.9148264984227129,
+      "hard_accuracy": 0.8066825775656324,
+      "correct": 870,
+      "hard_correct": 338,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8309859154929577
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 14234,
+    "accuracy": 0.924812030075188,
+    "hard_accuracy": 0.8309859154929577,
+    "correct": 738,
+    "hard_correct": 295,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "pair_linear_fusion0.75",
+    "family": "pair_linear",
+    "new_weight": 0.75,
+    "context": false,
+    "members": [
+      "seed7506.npz"
+    ],
+    "inner": {
+      "accuracy": 0.9095688748685594,
+      "hard_accuracy": 0.7947494033412887,
+      "correct": 865,
+      "hard_correct": 333,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8112676056338028
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 14234,
+    "accuracy": 0.9160401002506265,
+    "hard_accuracy": 0.8112676056338028,
+    "correct": 731,
+    "hard_correct": 288,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "pair_linear_fusion1",
+    "family": "pair_linear",
+    "new_weight": 1,
+    "context": false,
+    "members": [
+      "seed7506.npz"
+    ],
+    "inner": {
+      "accuracy": 0.9127234490010515,
+      "hard_accuracy": 0.801909307875895,
+      "correct": 868,
+      "hard_correct": 336,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8028169014084507
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 14234,
+    "accuracy": 0.9122807017543859,
+    "hard_accuracy": 0.8028169014084507,
+    "correct": 728,
+    "hard_correct": 285,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "mlp_bce_fusion0",
+    "family": "mlp_bce",
+    "new_weight": 0,
+    "context": false,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.917981072555205,
+      "hard_accuracy": 0.8138424821002387,
+      "correct": 873,
+      "hard_correct": 341,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8422535211267606,
+      0.8422535211267606,
+      0.8422535211267606
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 864402,
+    "accuracy": 0.9298245614035088,
+    "hard_accuracy": 0.8422535211267606,
+    "correct": 742,
+    "hard_correct": 299,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "mlp_bce_fusion0.25",
+    "family": "mlp_bce",
+    "new_weight": 0.25,
+    "context": false,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.9169295478443743,
+      "hard_accuracy": 0.8114558472553699,
+      "correct": 872,
+      "hard_correct": 340,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.847887323943662,
+      0.8422535211267606,
+      0.8394366197183099
+    ],
+    "improved_seeds": 1,
+    "eligible": false,
+    "member_bytes": 864402,
+    "accuracy": 0.9298245614035088,
+    "hard_accuracy": 0.8422535211267606,
+    "correct": 742,
+    "hard_correct": 299,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "mlp_bce_fusion0.5",
+    "family": "mlp_bce",
+    "new_weight": 0.5,
+    "context": false,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.9148264984227129,
+      "hard_accuracy": 0.8066825775656324,
+      "correct": 870,
+      "hard_correct": 338,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8450704225352113,
+      0.8450704225352113,
+      0.8394366197183099
+    ],
+    "improved_seeds": 2,
+    "eligible": false,
+    "member_bytes": 864402,
+    "accuracy": 0.9298245614035088,
+    "hard_accuracy": 0.8422535211267606,
+    "correct": 742,
+    "hard_correct": 299,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "mlp_bce_fusion0.75",
+    "family": "mlp_bce",
+    "new_weight": 0.75,
+    "context": false,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.9169295478443743,
+      "hard_accuracy": 0.8114558472553699,
+      "correct": 872,
+      "hard_correct": 340,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8450704225352113,
+      0.8394366197183099,
+      0.8225352112676056
+    ],
+    "improved_seeds": 1,
+    "eligible": false,
+    "member_bytes": 864402,
+    "accuracy": 0.9273182957393483,
+    "hard_accuracy": 0.8366197183098592,
+    "correct": 740,
+    "hard_correct": 297,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "mlp_bce_fusion1",
+    "family": "mlp_bce",
+    "new_weight": 1,
+    "context": false,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.9095688748685594,
+      "hard_accuracy": 0.7947494033412887,
+      "correct": 865,
+      "hard_correct": 333,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8225352112676056,
+      0.828169014084507,
+      0.8225352112676056
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 864402,
+    "accuracy": 0.924812030075188,
+    "hard_accuracy": 0.8309859154929577,
+    "correct": 738,
+    "hard_correct": 295,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "mlp_pairwise_fusion0",
+    "family": "mlp_pairwise",
+    "new_weight": 0,
+    "context": false,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.917981072555205,
+      "hard_accuracy": 0.8138424821002387,
+      "correct": 873,
+      "hard_correct": 341,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8422535211267606,
+      0.8422535211267606,
+      0.8422535211267606
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 864402,
+    "accuracy": 0.9298245614035088,
+    "hard_accuracy": 0.8422535211267606,
+    "correct": 742,
+    "hard_correct": 299,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "mlp_pairwise_fusion0.25",
+    "family": "mlp_pairwise",
+    "new_weight": 0.25,
+    "context": false,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.9127234490010515,
+      "hard_accuracy": 0.801909307875895,
+      "correct": 868,
+      "hard_correct": 336,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8422535211267606,
+      0.8422535211267606,
+      0.8394366197183099
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 864402,
+    "accuracy": 0.9298245614035088,
+    "hard_accuracy": 0.8422535211267606,
+    "correct": 742,
+    "hard_correct": 299,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "mlp_pairwise_fusion0.5",
+    "family": "mlp_pairwise",
+    "new_weight": 0.5,
+    "context": false,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.9158780231335436,
+      "hard_accuracy": 0.8090692124105012,
+      "correct": 871,
+      "hard_correct": 339,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8338028169014085,
+      0.8422535211267606,
+      0.8338028169014085
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 864402,
+    "accuracy": 0.9285714285714286,
+    "hard_accuracy": 0.8394366197183099,
+    "correct": 741,
+    "hard_correct": 298,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "mlp_pairwise_fusion0.75",
+    "family": "mlp_pairwise",
+    "new_weight": 0.75,
+    "context": false,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.9158780231335436,
+      "hard_accuracy": 0.8090692124105012,
+      "correct": 871,
+      "hard_correct": 339,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8338028169014085,
+      0.828169014084507,
+      0.828169014084507
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 864402,
+    "accuracy": 0.924812030075188,
+    "hard_accuracy": 0.8309859154929577,
+    "correct": 738,
+    "hard_correct": 295,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "mlp_pairwise_fusion1",
+    "family": "mlp_pairwise",
+    "new_weight": 1,
+    "context": false,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.9148264984227129,
+      "hard_accuracy": 0.8066825775656324,
+      "correct": 870,
+      "hard_correct": 338,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8225352112676056,
+      0.8309859154929577,
+      0.8112676056338028
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 864402,
+    "accuracy": 0.9197994987468672,
+    "hard_accuracy": 0.819718309859155,
+    "correct": 734,
+    "hard_correct": 291,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "mlp_listwise_fusion0",
+    "family": "mlp_listwise",
+    "new_weight": 0,
+    "context": false,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.917981072555205,
+      "hard_accuracy": 0.8138424821002387,
+      "correct": 873,
+      "hard_correct": 341,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8422535211267606,
+      0.8422535211267606,
+      0.8422535211267606
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 864402,
+    "accuracy": 0.9298245614035088,
+    "hard_accuracy": 0.8422535211267606,
+    "correct": 742,
+    "hard_correct": 299,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "mlp_listwise_fusion0.25",
+    "family": "mlp_listwise",
+    "new_weight": 0.25,
+    "context": false,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.9137749737118822,
+      "hard_accuracy": 0.8042959427207638,
+      "correct": 869,
+      "hard_correct": 337,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8422535211267606,
+      0.8338028169014085,
+      0.8366197183098592
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 864402,
+    "accuracy": 0.9273182957393483,
+    "hard_accuracy": 0.8366197183098592,
+    "correct": 740,
+    "hard_correct": 297,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "mlp_listwise_fusion0.5",
+    "family": "mlp_listwise",
+    "new_weight": 0.5,
+    "context": false,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.917981072555205,
+      "hard_accuracy": 0.8138424821002387,
+      "correct": 873,
+      "hard_correct": 341,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.847887323943662,
+      0.8394366197183099,
+      0.847887323943662
+    ],
+    "improved_seeds": 2,
+    "eligible": true,
+    "member_bytes": 864402,
+    "accuracy": 0.931077694235589,
+    "hard_accuracy": 0.8450704225352113,
+    "correct": 743,
+    "hard_correct": 300,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "mlp_listwise_fusion0.75",
+    "family": "mlp_listwise",
+    "new_weight": 0.75,
+    "context": false,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.9127234490010515,
+      "hard_accuracy": 0.801909307875895,
+      "correct": 868,
+      "hard_correct": 336,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8422535211267606,
+      0.8225352112676056,
+      0.8253521126760563
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 864402,
+    "accuracy": 0.9273182957393483,
+    "hard_accuracy": 0.8366197183098592,
+    "correct": 740,
+    "hard_correct": 297,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "mlp_listwise_fusion1",
+    "family": "mlp_listwise",
+    "new_weight": 1,
+    "context": false,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.9106203995793901,
+      "hard_accuracy": 0.7971360381861575,
+      "correct": 866,
+      "hard_correct": 334,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8225352112676056,
+      0.8169014084507042,
+      0.8112676056338028
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 864402,
+    "accuracy": 0.918546365914787,
+    "hard_accuracy": 0.8169014084507042,
+    "correct": 733,
+    "hard_correct": 290,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "context_listwise_fusion0",
+    "family": "context_listwise",
+    "new_weight": 0,
+    "context": true,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.917981072555205,
+      "hard_accuracy": 0.8138424821002387,
+      "correct": 873,
+      "hard_correct": 341,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8422535211267606,
+      0.8422535211267606,
+      0.8422535211267606
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 1675410,
+    "accuracy": 0.9298245614035088,
+    "hard_accuracy": 0.8422535211267606,
+    "correct": 742,
+    "hard_correct": 299,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "context_listwise_fusion0.25",
+    "family": "context_listwise",
+    "new_weight": 0.25,
+    "context": true,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.9137749737118822,
+      "hard_accuracy": 0.8042959427207638,
+      "correct": 869,
+      "hard_correct": 337,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8450704225352113,
+      0.8422535211267606,
+      0.8394366197183099
+    ],
+    "improved_seeds": 1,
+    "eligible": false,
+    "member_bytes": 1675410,
+    "accuracy": 0.9285714285714286,
+    "hard_accuracy": 0.8394366197183099,
+    "correct": 741,
+    "hard_correct": 298,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "context_listwise_fusion0.5",
+    "family": "context_listwise",
+    "new_weight": 0.5,
+    "context": true,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.9106203995793901,
+      "hard_accuracy": 0.7971360381861575,
+      "correct": 866,
+      "hard_correct": 334,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8309859154929577,
+      0.8394366197183099,
+      0.8309859154929577
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 1675410,
+    "accuracy": 0.9285714285714286,
+    "hard_accuracy": 0.8394366197183099,
+    "correct": 741,
+    "hard_correct": 298,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "context_listwise_fusion0.75",
+    "family": "context_listwise",
+    "new_weight": 0.75,
+    "context": true,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.9085173501577287,
+      "hard_accuracy": 0.7923627684964201,
+      "correct": 864,
+      "hard_correct": 332,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8225352112676056,
+      0.828169014084507,
+      0.8309859154929577
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 1675410,
+    "accuracy": 0.9223057644110275,
+    "hard_accuracy": 0.8253521126760563,
+    "correct": 736,
+    "hard_correct": 293,
+    "n": 798,
+    "hard_n": 355
+  },
+  {
+    "name": "context_listwise_fusion1",
+    "family": "context_listwise",
+    "new_weight": 1,
+    "context": true,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.9043112513144059,
+      "hard_accuracy": 0.7828162291169452,
+      "correct": 860,
+      "hard_correct": 328,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.8084507042253521,
+      0.8140845070422535,
+      0.8225352112676056
+    ],
+    "improved_seeds": 0,
+    "eligible": false,
+    "member_bytes": 1675410,
+    "accuracy": 0.9172932330827067,
+    "hard_accuracy": 0.8140845070422535,
+    "correct": 732,
+    "hard_correct": 289,
+    "n": 798,
+    "hard_n": 355
+  }
+]

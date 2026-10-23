@@ -1,0 +1,17 @@
+{
+  "protocol": "dase7506-mp2-open-hard-verifier-v5",
+  "seed": 7506,
+  "selected": {
+    "name": "fusion_embedding_0.75",
+    "validation_accuracy": 0.9298245614035088,
+    "validation_hard_accuracy": 0.8422535211267606,
+    "fit_seconds": 0.0,
+    "tree": "comparison_pca_leaves15_l210",
+    "linear": "embedding_C0.1",
+    "alpha": 0.75
+  },
+  "feature_version": 1,
+  "fit_split": "train",
+  "selection_split": "validation",
+  "test_used_for_selection": false
+}

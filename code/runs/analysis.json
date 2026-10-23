@@ -1,0 +1,154 @@
+{
+  "family_results": [
+    {
+      "family": "pair_linear",
+      "config": {
+        "family": "pair_linear",
+        "C": 0.001,
+        "inner_keys": [
+          "pair_linear_C0.001"
+        ]
+      },
+      "ensemble_validation": 0.9122807017543859,
+      "ensemble_hard": 0.8028169014084507,
+      "ensemble_internal_hard": 0.801909307875895,
+      "seed_hard": [
+        0.8028169014084507
+      ],
+      "seed_hard_std": 0.0
+    },
+    {
+      "family": "mlp_bce",
+      "config": {
+        "family": "mlp_bce",
+        "decay": 0.01,
+        "epoch": 40,
+        "mean_hard": 0.796340493237868,
+        "mean_all": 0.9102698913424465,
+        "inner_keys": [
+          "mlp_bce_wd0.01_seed7506_ep40",
+          "mlp_bce_wd0.01_seed7507_ep40",
+          "mlp_bce_wd0.01_seed7508_ep40"
+        ]
+      },
+      "ensemble_validation": 0.924812030075188,
+      "ensemble_hard": 0.8309859154929577,
+      "ensemble_internal_hard": 0.7947494033412887,
+      "seed_hard": [
+        0.8225352112676056,
+        0.828169014084507,
+        0.8225352112676056
+      ],
+      "seed_hard_std": 0.003252677572899296
+    },
+    {
+      "family": "mlp_pairwise",
+      "config": {
+        "family": "mlp_pairwise",
+        "decay": 0.001,
+        "epoch": 10,
+        "mean_hard": 0.8050914876690533,
+        "mean_all": 0.9141254819488257,
+        "inner_keys": [
+          "mlp_pairwise_wd0.001_seed7506_ep10",
+          "mlp_pairwise_wd0.001_seed7507_ep10",
+          "mlp_pairwise_wd0.001_seed7508_ep10"
+        ]
+      },
+      "ensemble_validation": 0.9197994987468672,
+      "ensemble_hard": 0.819718309859155,
+      "ensemble_internal_hard": 0.8066825775656324,
+      "seed_hard": [
+        0.8225352112676056,
+        0.8309859154929577,
+        0.8112676056338028
+      ],
+      "seed_hard_std": 0.009892632631786595
+    },
+    {
+      "family": "mlp_listwise",
+      "config": {
+        "family": "mlp_listwise",
+        "decay": 0.01,
+        "epoch": 10,
+        "mean_hard": 0.7995226730310262,
+        "mean_all": 0.9116719242902208,
+        "inner_keys": [
+          "mlp_listwise_wd0.01_seed7506_ep10",
+          "mlp_listwise_wd0.01_seed7507_ep10",
+          "mlp_listwise_wd0.01_seed7508_ep10"
+        ]
+      },
+      "ensemble_validation": 0.918546365914787,
+      "ensemble_hard": 0.8169014084507042,
+      "ensemble_internal_hard": 0.7971360381861575,
+      "seed_hard": [
+        0.8225352112676056,
+        0.8169014084507042,
+        0.8112676056338028
+      ],
+      "seed_hard_std": 0.005633802816901401
+    },
+    {
+      "family": "context_listwise",
+      "config": {
+        "family": "context_listwise",
+        "decay": 0.01,
+        "epoch": 10,
+        "mean_hard": 0.7915672235481305,
+        "mean_all": 0.9081668419207851,
+        "inner_keys": [
+          "context_listwise_wd0.01_seed7506_ep10",
+          "context_listwise_wd0.01_seed7507_ep10",
+          "context_listwise_wd0.01_seed7508_ep10"
+        ]
+      },
+      "ensemble_validation": 0.9172932330827067,
+      "ensemble_hard": 0.8140845070422535,
+      "ensemble_internal_hard": 0.7828162291169452,
+      "seed_hard": [
+        0.8084507042253521,
+        0.8140845070422535,
+        0.8225352112676056
+      ],
+      "seed_hard_std": 0.007089046418094592
+    }
+  ],
+  "validation_paired_gain": 8,
+  "validation_paired_loss": 7,
+  "validation_delta": 0.0028169014084507044,
+  "paired_bootstrap95": [
+    -0.01971830985915493,
+    0.02535211267605634
+  ],
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20261023,
+  "mcnemar_exact_p": 1.0,
+  "coverage": [
+    {
+      "coverage": 0.2507042253521127,
+      "n": 89,
+      "correct": 87,
+      "accuracy": 0.9775280898876404
+    },
+    {
+      "coverage": 0.5014084507042254,
+      "n": 178,
+      "correct": 169,
+      "accuracy": 0.949438202247191
+    },
+    {
+      "coverage": 0.752112676056338,
+      "n": 267,
+      "correct": 246,
+      "accuracy": 0.9213483146067416
+    },
+    {
+      "coverage": 1.0,
+      "n": 355,
+      "correct": 300,
+      "accuracy": 0.8450704225352113
+    }
+  ],
+  "caution": "All development analyses reuse selection data. Confidence intervals/p-values do not adjust for search; no robust advantage is established."
+}

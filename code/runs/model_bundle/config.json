@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "family": "mlp_listwise",
+  "context": false,
+  "new_weight": 0.5,
+  "legacy_scale": 1.3173072192231707,
+  "members": [
+    "seed7506.npz",
+    "seed7507.npz",
+    "seed7508.npz"
+  ],
+  "seed": [
+    7506,
+    7507,
+    7508
+  ],
+  "protocol": "dase7506-mp2-open-hard-verifier-v5"
+}

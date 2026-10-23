@@ -1,0 +1,43 @@
+INTERNAL_BASELINE {"accuracy": 0.917981072555205, "hard_accuracy": 0.8138424821002387, "correct": 873, "hard_correct": 341, "n": 951, "hard_n": 419}
+{"family": "pair_linear", "C": 0.001, "name": "pair_linear_C0.001", "seconds": 0.37985680000019784, "accuracy": 0.9127234490010515, "hard_accuracy": 0.801909307875895, "correct": 868, "hard_correct": 336, "n": 951, "hard_n": 419}
+{"family": "pair_linear", "C": 0.01, "name": "pair_linear_C0.01", "seconds": 0.47817880000002333, "accuracy": 0.9116719242902208, "hard_accuracy": 0.7995226730310262, "correct": 867, "hard_correct": 335, "n": 951, "hard_n": 419}
+{"family": "pair_linear", "C": 0.1, "name": "pair_linear_C0.1", "seconds": 0.787562200001048, "accuracy": 0.9085173501577287, "hard_accuracy": 0.7923627684964201, "correct": 864, "hard_correct": 332, "n": 951, "hard_n": 419}
+INNER mlp_bce wd=0.001 seed=7506 seconds=4.68 hard_by_epoch={10: 0.7852, 20: 0.79, 40: 0.7828, 60: 0.7924}
+INNER mlp_bce wd=0.001 seed=7507 seconds=2.01 hard_by_epoch={10: 0.7876, 20: 0.7828, 40: 0.79, 60: 0.7947}
+INNER mlp_bce wd=0.001 seed=7508 seconds=2.10 hard_by_epoch={10: 0.7947, 20: 0.7947, 40: 0.7971, 60: 0.7947}
+INNER mlp_bce wd=0.01 seed=7506 seconds=1.99 hard_by_epoch={10: 0.7876, 20: 0.7852, 40: 0.7876, 60: 0.7828}
+INNER mlp_bce wd=0.01 seed=7507 seconds=2.13 hard_by_epoch={10: 0.7924, 20: 0.79, 40: 0.7971, 60: 0.7924}
+INNER mlp_bce wd=0.01 seed=7508 seconds=2.19 hard_by_epoch={10: 0.7924, 20: 0.8019, 40: 0.8043, 60: 0.7947}
+INNER mlp_pairwise wd=0.001 seed=7506 seconds=2.24 hard_by_epoch={10: 0.8067, 20: 0.8043, 40: 0.79, 60: 0.7828}
+INNER mlp_pairwise wd=0.001 seed=7507 seconds=2.19 hard_by_epoch={10: 0.8138, 20: 0.7971, 40: 0.79, 60: 0.7828}
+INNER mlp_pairwise wd=0.001 seed=7508 seconds=2.17 hard_by_epoch={10: 0.7947, 20: 0.79, 40: 0.7852, 60: 0.7852}
+INNER mlp_pairwise wd=0.01 seed=7506 seconds=2.20 hard_by_epoch={10: 0.7995, 20: 0.7924, 40: 0.79, 60: 0.7995}
+INNER mlp_pairwise wd=0.01 seed=7507 seconds=2.21 hard_by_epoch={10: 0.8138, 20: 0.8043, 40: 0.7924, 60: 0.7971}
+INNER mlp_pairwise wd=0.01 seed=7508 seconds=2.07 hard_by_epoch={10: 0.7924, 20: 0.79, 40: 0.7924, 60: 0.7947}
+INNER mlp_listwise wd=0.001 seed=7506 seconds=2.08 hard_by_epoch={10: 0.7995, 20: 0.8019, 40: 0.7947, 60: 0.7947}
+INNER mlp_listwise wd=0.001 seed=7507 seconds=2.16 hard_by_epoch={10: 0.7995, 20: 0.7804, 40: 0.7876, 60: 0.7876}
+INNER mlp_listwise wd=0.001 seed=7508 seconds=2.52 hard_by_epoch={10: 0.7947, 20: 0.7852, 40: 0.7804, 60: 0.7852}
+INNER mlp_listwise wd=0.01 seed=7506 seconds=2.12 hard_by_epoch={10: 0.8043, 20: 0.7995, 40: 0.8091, 60: 0.7995}
+INNER mlp_listwise wd=0.01 seed=7507 seconds=1.99 hard_by_epoch={10: 0.8019, 20: 0.7971, 40: 0.79, 60: 0.79}
+INNER mlp_listwise wd=0.01 seed=7508 seconds=2.17 hard_by_epoch={10: 0.7924, 20: 0.79, 40: 0.7828, 60: 0.778}
+INNER context_listwise wd=0.001 seed=7506 seconds=3.53 hard_by_epoch={10: 0.778, 20: 0.7852, 40: 0.7709, 60: 0.7804}
+INNER context_listwise wd=0.001 seed=7507 seconds=3.37 hard_by_epoch={10: 0.7852, 20: 0.7828, 40: 0.778, 60: 0.7804}
+INNER context_listwise wd=0.001 seed=7508 seconds=3.44 hard_by_epoch={10: 0.7947, 20: 0.7828, 40: 0.7828, 60: 0.7828}
+INNER context_listwise wd=0.01 seed=7506 seconds=3.29 hard_by_epoch={10: 0.778, 20: 0.7828, 40: 0.7804, 60: 0.7804}
+INNER context_listwise wd=0.01 seed=7507 seconds=3.26 hard_by_epoch={10: 0.7947, 20: 0.7757, 40: 0.7804, 60: 0.79}
+INNER context_listwise wd=0.01 seed=7508 seconds=3.16 hard_by_epoch={10: 0.8019, 20: 0.7852, 40: 0.7757, 60: 0.7852}
+OFFICIAL_VALIDATION_BASELINE {"accuracy": 0.9298245614035088, "hard_accuracy": 0.8422535211267606, "correct": 742, "hard_correct": 299, "n": 798, "hard_n": 355}
+REFIT {"family": "pair_linear", "seed": 7506, "seconds": 0.3971548999998049, "accuracy": 0.9122807017543859, "hard_accuracy": 0.8028169014084507, "correct": 728, "hard_correct": 285, "n": 798, "hard_n": 355}
+REFIT {"family": "mlp_bce", "seed": 7506, "seconds": 1.6662893000011536, "accuracy": 0.9210526315789473, "hard_accuracy": 0.8225352112676056, "correct": 735, "hard_correct": 292, "n": 798, "hard_n": 355}
+REFIT {"family": "mlp_bce", "seed": 7507, "seconds": 1.588491200000135, "accuracy": 0.9235588972431078, "hard_accuracy": 0.828169014084507, "correct": 737, "hard_correct": 294, "n": 798, "hard_n": 355}
+REFIT {"family": "mlp_bce", "seed": 7508, "seconds": 1.5521417999989353, "accuracy": 0.9210526315789473, "hard_accuracy": 0.8225352112676056, "correct": 735, "hard_correct": 292, "n": 798, "hard_n": 355}
+REFIT {"family": "mlp_pairwise", "seed": 7506, "seconds": 0.5005168999996386, "accuracy": 0.9210526315789473, "hard_accuracy": 0.8225352112676056, "correct": 735, "hard_correct": 292, "n": 798, "hard_n": 355}
+REFIT {"family": "mlp_pairwise", "seed": 7507, "seconds": 0.47780799999964074, "accuracy": 0.924812030075188, "hard_accuracy": 0.8309859154929577, "correct": 738, "hard_correct": 295, "n": 798, "hard_n": 355}
+REFIT {"family": "mlp_pairwise", "seed": 7508, "seconds": 0.5163573999998334, "accuracy": 0.9160401002506265, "hard_accuracy": 0.8112676056338028, "correct": 731, "hard_correct": 288, "n": 798, "hard_n": 355}
+REFIT {"family": "mlp_listwise", "seed": 7506, "seconds": 0.5100719000001845, "accuracy": 0.9210526315789473, "hard_accuracy": 0.8225352112676056, "correct": 735, "hard_correct": 292, "n": 798, "hard_n": 355}
+REFIT {"family": "mlp_listwise", "seed": 7507, "seconds": 0.5546799000003375, "accuracy": 0.918546365914787, "hard_accuracy": 0.8169014084507042, "correct": 733, "hard_correct": 290, "n": 798, "hard_n": 355}
+REFIT {"family": "mlp_listwise", "seed": 7508, "seconds": 0.5126370000016323, "accuracy": 0.9160401002506265, "hard_accuracy": 0.8112676056338028, "correct": 731, "hard_correct": 288, "n": 798, "hard_n": 355}
+REFIT {"family": "context_listwise", "seed": 7506, "seconds": 0.8432052999996813, "accuracy": 0.9147869674185464, "hard_accuracy": 0.8084507042253521, "correct": 730, "hard_correct": 287, "n": 798, "hard_n": 355}
+REFIT {"family": "context_listwise", "seed": 7507, "seconds": 0.9057355999993888, "accuracy": 0.9172932330827067, "hard_accuracy": 0.8140845070422535, "correct": 732, "hard_correct": 289, "n": 798, "hard_n": 355}
+REFIT {"family": "context_listwise", "seed": 7508, "seconds": 0.8843046000001777, "accuracy": 0.9210526315789473, "hard_accuracy": 0.8225352112676056, "correct": 735, "hard_correct": 292, "n": 798, "hard_n": 355}
+SELECTED {"selected": {"name": "mlp_listwise_fusion0.5", "family": "mlp_listwise", "new_weight": 0.5, "context": false, "members": ["seed7506.npz", "seed7507.npz", "seed7508.npz"], "inner": {"accuracy": 0.917981072555205, "hard_accuracy": 0.8138424821002387, "correct": 873, "hard_correct": 341, "n": 951, "hard_n": 419}, "seed_fusion_hard": [0.847887323943662, 0.8394366197183099, 0.847887323943662], "improved_seeds": 2, "eligible": true, "member_bytes": 864402, "accuracy": 0.931077694235589, "hard_accuracy": 0.8450704225352113, "correct": 743, "hard_correct": 300, "n": 798, "hard_n": 355}, "baseline_validation": {"accuracy": 0.9298245614035088, "hard_accuracy": 0.8422535211267606, "correct": 742, "hard_correct": 299, "n": 798, "hard_n": 355}, "baseline_internal_holdout": {"accuracy": 0.917981072555205, "hard_accuracy": 0.8138424821002387, "correct": 873, "hard_correct": 341, "n": 951, "hard_n": 419}, "total_seconds": 80.80433679999987, "asset_bytes": 1411186, "fit_groups_inner": 2010, "holdout_groups": 951, "fit_groups_full": 2513, "completed_utc": "2026-10-23T06:48:37.097498+00:00", "prior_test_exposure_disclosed": true, "test_used": false}

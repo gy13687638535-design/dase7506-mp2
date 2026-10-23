@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-23T06:47:16.293004+00:00",
+  "plan_sha256": "b3062351219f31849972a5593829e1256c2b19495f35f800e2d38de42fa69f99",
+  "source_sha256": {
+    "research.py": "bbc781d023ee4587d0b530e826ab0ffcf975b97dcc324b52a023989a31e89a6d",
+    "round2_model.py": "7dc9ed001a7ea4c118a1ec02fe7a3e2b233d1c589962d618e750f964f273df11",
+    "features.py": "1e79a22c0bf3ffc4fa58aae2c31989c40a4a2e6b12ebcbd3240b4c063c176d99"
+  },
+  "python": "3.12.14",
+  "torch": "2.9.0+cpu",
+  "device": "cpu",
+  "threads": 4
+}

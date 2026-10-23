@@ -1,0 +1,22 @@
+{
+  "runs": [
+    {
+      "log": "training-console-greedy-pilot.log",
+      "training_seconds": 12.637185100000352
+    },
+    {
+      "log": "training-console-parser-pilot.log",
+      "training_seconds": 12.558151500001259
+    },
+    {
+      "log": "training-console-pilot.log",
+      "training_seconds": 14.19694619999973
+    },
+    {
+      "log": "final experiments.json",
+      "training_seconds": 12.456140500000402
+    }
+  ],
+  "total_recorded_training_seconds": 51.84842330000174,
+  "notes": "All pilots predate test scoring. Parser and deterministic tie handling were fixed before freezing. All training was CPU-only."
+}

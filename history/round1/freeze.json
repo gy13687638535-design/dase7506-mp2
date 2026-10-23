@@ -1,0 +1,30 @@
+{
+  "frozen_at_utc": "2026-10-19T10:42:26.575762+00:00",
+  "protocol": "dase7506-mp2-open-hard-verifier-v5",
+  "files": {
+    "submission.py": "34a335ad9141c7afe035a50c53c361b43ef4c7ebb56934445bdc16adab8f9b5a",
+    "selector.py": "255ccaa4f912bf5f8ca32f877d77759493fe7f9ed2b8049ae2a692719e736418",
+    "features.py": "1e79a22c0bf3ffc4fa58aae2c31989c40a4a2e6b12ebcbd3240b4c063c176d99",
+    "train.py": "4fce70b6670ca10074dbc932090888b446a164f15625ea26a53a770efa6c9ba9",
+    "requirements-method.txt": "3122b668df737168d2b73ec17a5c39b54af37593b2362699c38b7ca9282275db",
+    "common.py": "aecd10f7ff2e9e82ac5673d34d576e122caac51d2caaa7c7a8aa05906da51f6c",
+    "predict.py": "e7a627fbdc9ef8d4ab3189a6fa5ac02d56ae703ccd1a81507aea0bd66e042162",
+    "score_predictions.py": "fe12b809b82117aea722e5dfef7a55a88950a7cf50c49ec2ea007ea847959960",
+    "check_data.py": "32f203e156e3019f87bb038ade4f303da21ca2f1694bb678a3ddc44661f0b533",
+    "requirements.txt": "5c12d85e7c08038d1dd9ffbf8119d12ce808885230a47e2bf65dcd9f114659d5",
+    "runs/model_bundle/config.json": "f52542b6f54131edf5142bad44b7a5b77a4ab458ebe47d65b1c0f5db9f303732",
+    "runs/model_bundle/model.pkl": "a0ff8f653739e92f1eea88888ad9777a23d03cae94b59254248a10d81215f98a"
+  },
+  "asset_bytes": 546945,
+  "asset_limit_bytes": 16777216,
+  "selection": {
+    "name": "fusion_embedding_0.75",
+    "validation_accuracy": 0.9298245614035088,
+    "validation_hard_accuracy": 0.8422535211267606,
+    "fit_seconds": 0.0,
+    "tree": "comparison_pca_leaves15_l210",
+    "linear": "embedding_C0.1",
+    "alpha": 0.75
+  },
+  "test_policy": "Method frozen before final test; no post-test tuning."
+}

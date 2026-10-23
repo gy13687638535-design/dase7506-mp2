@@ -1,0 +1,59 @@
+{
+  "selected": {
+    "name": "mlp_listwise_fusion0.5",
+    "family": "mlp_listwise",
+    "new_weight": 0.5,
+    "context": false,
+    "members": [
+      "seed7506.npz",
+      "seed7507.npz",
+      "seed7508.npz"
+    ],
+    "inner": {
+      "accuracy": 0.917981072555205,
+      "hard_accuracy": 0.8138424821002387,
+      "correct": 873,
+      "hard_correct": 341,
+      "n": 951,
+      "hard_n": 419
+    },
+    "seed_fusion_hard": [
+      0.847887323943662,
+      0.8394366197183099,
+      0.847887323943662
+    ],
+    "improved_seeds": 2,
+    "eligible": true,
+    "member_bytes": 864402,
+    "accuracy": 0.931077694235589,
+    "hard_accuracy": 0.8450704225352113,
+    "correct": 743,
+    "hard_correct": 300,
+    "n": 798,
+    "hard_n": 355
+  },
+  "baseline_validation": {
+    "accuracy": 0.9298245614035088,
+    "hard_accuracy": 0.8422535211267606,
+    "correct": 742,
+    "hard_correct": 299,
+    "n": 798,
+    "hard_n": 355
+  },
+  "baseline_internal_holdout": {
+    "accuracy": 0.917981072555205,
+    "hard_accuracy": 0.8138424821002387,
+    "correct": 873,
+    "hard_correct": 341,
+    "n": 951,
+    "hard_n": 419
+  },
+  "total_seconds": 80.80433679999987,
+  "asset_bytes": 1411186,
+  "fit_groups_inner": 2010,
+  "holdout_groups": 951,
+  "fit_groups_full": 2513,
+  "completed_utc": "2026-10-23T06:48:37.097498+00:00",
+  "prior_test_exposure_disclosed": true,
+  "test_used": false
+}

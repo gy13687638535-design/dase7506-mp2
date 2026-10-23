@@ -1,0 +1,17 @@
+{
+  "status": "local_artifacts_ready_not_submitted",
+  "student_id": null,
+  "public_code_url": null,
+  "public_checkpoint_url": null,
+  "github_submission_issue_url": null,
+  "public_commit": null,
+  "accuracy": 80.94218415417559,
+  "correct": 378,
+  "n": 467,
+  "method": "mlp_listwise_fusion0.5",
+  "method_freeze_sha256": "f2e777713de8a0a46f2343bae1a6d4692d5a1bb3f0820dea852aab65c74a8141",
+  "report": "output/pdf/report.pdf",
+  "checkpoint_directory": "code/runs/model_bundle",
+  "required_final_step": "Publish matching code/checkpoint links, supply student ID, and create the GitHub issue.",
+  "deadline": "2026-10-31T23:59:00+08:00"
+}

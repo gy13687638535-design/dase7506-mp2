@@ -1,0 +1,13 @@
+{
+  "split": "test",
+  "prediction_process_seconds": 2.8236097999997583,
+  "scoring_process_seconds": 0.3789515999997093,
+  "total_seconds": 3.2025613999994675,
+  "threads": 4,
+  "cpu": "AMD Ryzen 7 7745HX with Radeon Graphics",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14",
+  "asset_bytes": 1411186,
+  "timing_includes": "fresh process startup, imports, assets and inputs, all ensemble members, independent scoring",
+  "eligibility": "Local measurement only; instructor reference CPU is authoritative."
+}

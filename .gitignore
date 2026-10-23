@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+tmp/
+code/tmp/
+code/research_runs/checkpoints/
+code/research_runs/selected_assets/
+code/runs/preflight/
+*.zip
